@@ -203,11 +203,13 @@
                                     <!-- <img id="myImg" src="images/2023/showme_teaser.png"
                                         alt="SHOWMe Dataset Teaser"
                                         style="width:100%;height:auto"> -->
-
-                                        <video width="100%" height="auto" controls autoplay muted>
+                                        <video id="showmeVideo" width="100%" height="auto" controls autoplay muted>
                                             <source src="videos/DatasetOverview.mp4" type="video/mp4">
                                             Your browser does not support the video tag.
-                                        </video>                                        
+                                        </video>    
+                                        <script>
+                                            document.getElementById('showmeVideo').playbackRate=1.5;
+                                        </script>                                    
                                     </a>
                                 </td>
                                 <td class="pubpapercol">
